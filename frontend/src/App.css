@@ -1,0 +1,22 @@
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.user-message {
+  align-self: flex-start;
+  background-color: lightblue;
+}
+
+.ai-message {
+  align-self: flex-end;
+  background-color: lightgreen;
+}
